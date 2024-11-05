@@ -1,0 +1,181 @@
+<html>
+<head>
+	<title>Bar - La Cucaracha</title>
+	<meta http-eqiuv="Content-Type" content="text/html"; charset="utf-8">
+	<style>
+		html {
+		scroll-behavior: smooth;
+		}
+
+		.container {
+		padding-left: 250px;
+		padding-right: 100px;
+		margin-bottom: 64px;
+		
+		}
+		.mainContainer {
+		color: white;
+		background-color: rgba(0,0,0, 0.1);
+		font-size: 30px;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		height: 500px;
+		text-align: center; 
+		}
+
+		.dancingScript {
+		font-family: "Dancing Script", cursive;
+		font-weight: 700;
+		}
+
+		body {
+		margin: 0px;
+		font-family: "Roboto", sans-serif;
+		font-weight: 400;
+		}
+		
+		.atf-image {
+		width: 100%;
+		height: 800px;
+		}
+
+		.googleMaps {
+		height: 350px;
+		width: 100%;
+		}
+
+		.footer {
+		background-color: rgb(35,38,41);
+		color: white;
+		padding: 100px;
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 0;	
+		}	
+
+		.footer-link {
+		color: white;
+		text-decoration: none;
+		}
+		
+		.footer-link:hover {
+		text-decoration: underline;	
+		}
+		
+		.headline {
+		color: gold;
+    		filter: drop-shadow(-10px 11px 2px black);
+		font-size: 125;
+		}
+
+		.menu {
+		position: absolute;
+		top: 32px;
+		right: 100px;
+		}
+
+		.menu a {
+		color: white;
+		text-decoration: none;
+		font-weight: bold;
+		margin-left: 32px;
+		filter: drop-shadow(-10px 11px 2px black);	
+		}
+
+		.menu a:hover {
+		color: gold;
+		}
+
+		.reservieren-btn  {
+		color: black !important;
+		background-color: gold;
+		padding: 16; 
+		}
+
+		.reservieren-btn:hover  {
+		background-color: yellow; 
+		}
+	</style>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<img class="atf-image" src="./img/aot.jpg">
+	<div class="mainContainer">
+		<h1 class="dancingScript headline">Welcome to <br> La Cucaracha Bar</h1>
+	</div>
+
+	<div class="menu">
+		<a class="reservieren-btn"href="#contact">RESERVIEREN</a>
+		<a href="#order">ONLINEBESTELLUNG</a>
+		<a href="#contact">KONTAKT</a>
+		<a href="#location">ANFAHRT</a>
+	</div>
+	<div class="container" id="order">
+		<h2 class="dancingScript">Opening Hours</h2>	
+		<table>	
+			<tr>
+				<td>Mo - Fr:</td>
+				<td>6pm - 1am</td>	
+			</tr>	
+			<tr>
+				<td>Saturdays:</td>
+				<td>6pm - Open End</td>	
+			</tr>		
+			<tr>
+				<td>Sundays</td>
+				<td>closed</td>	
+			</tr>
+		</table>
+	</div>
+	<div class="container">
+		<h2 class="dancingScript">Our location</h2>
+		<p>Sunset Blvd. Los Angeles CA.</p>	
+		<iframe class="googleMaps"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.0674764506434!2d-118.38203825451357!3d34.093411820986624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bebe65da5b35%3A0xf93cf2521006b5b!2sSkybar%20Los%20Angeles!5e0!3m2!1sde!2sde!4v1727705289882!5m2!1sde!2sde" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div>
+
+	<div class="container">
+		<h2 class="dancingScript">Cocktails</h2>
+		<table class="table">
+			<tr>
+				<td>Bloody Mary</td>
+				<td>12 $</td>
+				<td>(60 ml) Vodka, (120 ml) Tomato juice,(15 ml) Lemon juice</td>	
+			</tr>	
+			<tr>
+				<td>Sex on the Beach</td>
+				<td>24 $</td>
+				<td>(45 ml) Vodka,(15 ml) Peach Schnapps,(60 ml) Orange juice, (60 ml) Cranberry juice,(15 ml) Chambord or Raspberry Liqueur</td>	
+			</tr>		
+			<tr>
+				<td>Fizzie Bubbele</td>
+				<td>32 $</td>
+				<td>Fresh milked Slurm</td>	
+			</tr>		
+		</table>
+		click<a href="./downloads/cocktaillist.pdf" target="_blank"> here</a> to download our Cocktaillist
+	</div>
+
+	<div class="container" id="contact">
+		<h2 class="dancingScript">Contact</h2>
+		How to get in touch with us: <br>
+		Phone: <a href="tel:01 213-680-1720">+1 213-680-1720</a><br>
+		eMail: <a href="mailto:bar-lacucaracha@speedymail.com">bar-lacucaracha@speedymail.com</a><br>
+	</div>
+	<div class="container footer">
+		<div>
+		(c) Copyright 2024 La Cucaracha bar Los Angeles Ca.<br>
+		</div>
+		<div>
+		<a href="imprint.html" class="footer-link">Imprint</a> | <a href="datenschutz.html" class="footer-link">Datenschutz</a>
+		</div> 	
+	</div>
+</body>
+
+</html>
